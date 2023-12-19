@@ -1,0 +1,209 @@
+{
+  "code-runner.runInTerminal": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.linkedEditing": true,
+  "explorer.confirmDelete": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "workbench.sideBar.location": "right",
+  "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.rulers": [],
+  "editor.formatOnType": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.templating": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tabnine.experimentalAutoImports": true,
+  "editor.parameterHints.cycle": false,
+  "editor.parameterHints.enabled": false,
+  "editor.minimap.autohide": true,
+  "cmake.configureOnOpen": true,
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontSize": 14,
+  "liveServer.settings.CustomBrowser": "firefox",
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "editor.lineNumbers": "relative",
+  "window.zoomLevel": 1,
+  "markdown.extension.print.theme": "dark",
+  "workbench.colorTheme": "Black Violet Blue",
+  "glassit.alpha": 210,
+  "workbench.editor.enablePreview": false,
+  "cmake.showOptionsMovedNotification": false,
+
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "REF",
+    "WARN",
+    "README",
+    "ERROR",
+    "NOTE",
+    "DONE"
+  ],
+  "todo-tree.tree.autoRefresh": true,
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug",
+      "type": "text-and-comment",
+      "background": "#F5A97F",
+      "foreground": "#000000"
+    },
+    "HACK": {
+      "icon": "tools",
+      "background": "#ff92d0",
+      "foreground": "#000000",
+      "type": "text-and-comment"
+    },
+    "FIXME": {
+      "icon": "flame",
+      "type": "text-and-comment",
+      "background": "#F5A97F",
+      "foreground": "#000000"
+    },
+    "XXX": {
+      "icon": "$(close)"
+    },
+    "TODO": {
+      "icon": "check",
+      "type": "text-and-comment",
+      "getterIcon": true,
+      "background": "#6666ff",
+      "foreground": "#000000"
+    },
+    "README": {
+      "foreground": "#000000",
+      "background": "#50fa7b",
+      "iconColour": "#50fa7b",
+      "icon": "eye",
+      "type": "text-and-comment"
+    },
+    "ERROR": {
+      "background": "#ff6e67",
+      "foreground": "#000000",
+      "type": "text-and-comment"
+    },
+    "NOTE": {
+      "background": "#8be9fd",
+      "foreground": "#000000",
+      "type": "text-and-comment"
+    },
+    "REF": {
+      "background": "#f1fa8c",
+      "foreground": "#000000",
+      "type": "text-and-comment"
+    },
+    "WARN": {
+      "background": "#ff6e67",
+      "foreground": "#000000",
+      "type": "text-and-comment"
+    },
+    "DONE": {
+      "background": "#67ffd6",
+      "foreground": "#000000",
+      "type": "text-and-comment"
+    }
+  },
+  "todo-tree.highlights.useColourScheme": true,
+
+  "vim.leader": "<space>",
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+    {
+      "before": ["f", "b"],
+      "commands": ["editor.action.formatSelection"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    // {
+    //   "before": ["<C-j>"],
+    //   "after": ["workbench.action.terminal.toggleTerminal"]
+    // },
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "b", "n"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>", "b", "p"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "<leader>"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "f", "g"],
+      "commands": ["actions.find"]
+    },
+    // {
+    //   "before": ["<C-j>"],
+    //   "commands": ["workbench.action.terminal.toggleTerminal"]
+    // },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    }
+  ]
+}
+  
