@@ -175,7 +175,7 @@
       "commands": ["workbench.action.showCommands"]
     },
     {
-      "before": ["<leader>", "c"],
+      "before": ["<leader>", "w", "c"],
       "commands": ["workbench.action.closeActiveEditor"]
     },
     {
@@ -197,8 +197,12 @@
       "after": ["d", "d"]
     },
     {
-      "before": ["<leader>", "w"],
+      "before": ["<leader>", "w", "v"],
       "commands": ["workbench.action.splitEditor"]
+    },
+     {
+      "before": ["<leader>", "w", "s"],
+      "commands": ["workbench.action.splitEditorDown"]
     },
     {
       "before": ["<leader>", "e"],
