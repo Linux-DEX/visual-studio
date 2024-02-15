@@ -157,11 +157,19 @@
             "commands": ["workbench.action.previousEditor"]
         },
         {
+            "before": ["<leader>", "w", "n"],
+            "commands": ["workbench.action.navigateForward"]
+        },
+        {
+            "before": ["<leader>", "w", "p"],
+            "commands": ["workbench.action.navigateBack"]
+        },
+        {
             "before": ["<leader>", "<leader>"],
             "commands": ["workbench.action.showCommands"]
         },
         {
-            "before": ["<leader>", "c"],
+            "before": ["<leader>", "w","c"],
             "commands": ["workbench.action.closeActiveEditor"]
         },
         {
@@ -178,9 +186,13 @@
             "before": ["<leader>", "d"],
             "after": ["d", "d"]
         },
-        {
-            "before": ["<leader>", "w"],
+         {
+            "before": ["<leader>", "w", "v"],
             "commands": ["workbench.action.splitEditor"]
+        },
+        {
+            "before": ["<leader>", "w", "s"],
+            "commands": ["workbench.action.splitEditorDown"]
         },
         {
             "before": ["<leader>", "e"],
