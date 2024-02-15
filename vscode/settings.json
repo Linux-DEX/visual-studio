@@ -171,6 +171,14 @@
       "commands": ["workbench.action.previousEditor"]
     },
     {
+            "before": ["<leader>", "w", "n"],
+            "commands": ["workbench.action.navigateForward"]
+        },
+        {
+            "before": ["<leader>", "w", "p"],
+            "commands": ["workbench.action.navigateBack"]
+        },
+    {
       "before": ["<leader>", "<leader>"],
       "commands": ["workbench.action.showCommands"]
     },
