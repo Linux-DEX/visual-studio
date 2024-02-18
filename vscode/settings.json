@@ -170,13 +170,21 @@
       "before": ["<leader>", "b", "p"],
       "commands": ["workbench.action.previousEditor"]
     },
-    {
-            "before": ["<leader>", "w", "n"],
-            "commands": ["workbench.action.navigateForward"]
+     {
+            "before": ["<leader>", "w", "l"],
+            "commands": ["workbench.action.navigateRight"]
         },
         {
-            "before": ["<leader>", "w", "p"],
-            "commands": ["workbench.action.navigateBack"]
+            "before": ["<leader>", "w", "h"],
+            "commands": ["workbench.action.navigateLeft"]
+        },
+        {
+            "before": ["<leader>", "w", "j"],
+            "commands": ["workbench.action.navigateDown"]
+        },
+        {
+            "before": ["<leader>", "w", "k"],
+            "commands": ["workbench.action.navigateUp"]
         },
     {
       "before": ["<leader>", "<leader>"],
