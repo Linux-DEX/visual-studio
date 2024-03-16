@@ -224,6 +224,12 @@
       "before": ["<leader>", "e"],
       "commands": ["workbench.action.toggleSidebarVisibility"]
     }
-  ]
+  ],
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.tabs.enabled": false,
+  "material-icon-theme.hidesExplorerArrows": true, 
 }
   
